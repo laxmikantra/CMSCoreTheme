@@ -1,0 +1,32 @@
+/*!
+ *   theme name: master
+ *   Author: Dhiraj Tekade
+ *	 Website: 
+ *   License:
+ *	 Purpose: enhancedment in default theme
+ */
+/*
+ * Core: General Layout Style
+ * -------------------------
+ */
+ 
+.login-page, .register-page { background: rgb(185,210,224); }
+.box-header .box-title { font-weight: bold;}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+}
+.login-box-body {
+	border-radius: 5px;
+}
+.login-box-body .input-group .input-group-addon {
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+.login-box-body .form-control {
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
