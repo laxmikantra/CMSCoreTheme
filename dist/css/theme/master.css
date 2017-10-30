@@ -10,7 +10,18 @@
  * -------------------------
  */
  
-.login-page, .register-page { background: rgb(185,210,224); }
+.login-page, .register-page { 
+	/*background: rgb(185,210,224); */
+	background: -webkit-linear-gradient(left,#C0ACFF,#E26EE8); /*Safari 5.1-6*/
+	background: -o-linear-gradient(right,#C0ACFF,#E26EE8); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(right,#C0ACFF,#E26EE8); /*Fx 3.6-15*/
+	background: linear-gradient(to right, #C0ACFF, #E26EE8); /*Standard*/
+}
+.login-box {
+	margin: 0% auto;
+	padding-top: 5%;
+}
+
 .box-header .box-title { font-weight: bold;}
 .form-group {
     margin-bottom: 15px;
@@ -21,6 +32,7 @@
 }
 .login-box-body {
 	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.45);
 }
 .login-box-body .input-group .input-group-addon {
 	border-top-left-radius:5px;
