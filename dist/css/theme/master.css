@@ -10,6 +10,7 @@
  * -------------------------
  */
  
+ /*login*/
 .login-page, .register-page { 
 	/*background: rgb(185,210,224); */
 	background: -webkit-linear-gradient(left,#C0ACFF,#E26EE8); /*Safari 5.1-6*/
@@ -21,7 +22,6 @@
 	margin: 0% auto;
 	padding-top: 5%;
 }
-
 .box-header .box-title { font-weight: bold;}
 .form-group {
     margin-bottom: 15px;
@@ -41,4 +41,43 @@
 .login-box-body .form-control {
 	border-top-right-radius:5px;
 	border-bottom-right-radius:5px;
+}
+.icheckbox_square-blue {
+	border: 2px solid #2489C5 !important;
+	border-radius:5px;
+	
+}
+
+/*main-header*/
+.navbar-toggleable-md {
+	padding:0px !important;
+	line-height:0px;
+}
+/*@media (min-width: 768px)*/
+.navbar-nav>li {
+	float: left;
+}
+.navbar {
+    position: relative;
+}
+.main-header .navbar-custom-menu, .main-header .navbar-right {
+    float: right;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+/*documentList*/
+.box {
+	margin-left: 15px !important;
+	margin-right: 15px !important;
+}	
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
 }
